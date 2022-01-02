@@ -2,8 +2,8 @@
 local music = workspace:FindFirstChild("SUPERIDOL") or Instance.new("Sound",workspace)
 								music.Name = "SUPERIDOL"
 								music.SoundId = "rbxassetid://8056340380"
-								music.Volume = 5
-								music.Looped = true
+								music.Volume = 3
+								music.Looped = false
 								if not music.Playing then music:Play() end
 local args = {
     [1] = "Super Idol \231\154\132\231\172\145\229\174\185 ",
@@ -29,5 +29,5 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
-wait(7.6)
+wait(20)
 pcall(function() game.workspace.SUPERIDOL:Destroy() end)
