@@ -1,6 +1,6 @@
 local args = {
     [1] = "DropMoney",
-    [2] = "10000"
+    [2] = "4414"
 }
 
 game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
