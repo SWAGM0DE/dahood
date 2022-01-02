@@ -1,12 +1,6 @@
- function(bool)
-        getgenv().Autodrop = bool
-        if bool == true then
-            local args = {
-                [1] = "DropMoney",
-                [2] = "100"
-            }
+local args = {
+    [1] = "DropMoney",
+    [2] = "10000"
+}
 
-            game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
-            wait(0.5)
-        end
-    end
+game:GetService("ReplicatedStorage").MainEvent:FireServer(unpack(args))
