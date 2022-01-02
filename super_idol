@@ -2,7 +2,7 @@
 local music = workspace:FindFirstChild("SUPERIDOL") or Instance.new("Sound",workspace)
 								music.Name = "SUPERIDOL"
 								music.SoundId = "rbxassetid://8056340380"
-								music.Volume = 1
+								music.Volume = 5
 								music.Looped = true
 								if not music.Playing then music:Play() end
 local args = {
