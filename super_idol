@@ -6,7 +6,7 @@ local music = workspace:FindFirstChild("SUPERIDOL") or Instance.new("Sound",work
 								music.Looped = true
 								if not music.Playing then music:Play() end
 local args = {
-    [1] = "Super Idol\231\154\132\231\172\145\229\174\185 ",
+    [1] = "Super Idol \231\154\132\231\172\145\229\174\185 ",
     [2] = "All"
 }
 
