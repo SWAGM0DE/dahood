@@ -1,0 +1,33 @@
+
+local music = workspace:FindFirstChild("SUPERIDOL") or Instance.new("Sound",workspace)
+								music.Name = "SUPERIDOL"
+								music.SoundId = "rbxassetid://8056340380"
+								music.Volume = 1
+								music.Looped = true
+								if not music.Playing then music:Play() end
+local args = {
+    [1] = "Super Idol\231\154\132\231\172\145\229\174\185 ",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+ wait(1.8)
+
+local args = {
+    [1] = "\233\131\189\230\178\161\228\189\160\231\154\132\231\148\156 \229\133\171\230\156\136\230\173\163\229" ..
+        "\141\136\231\154\132\233\152\179\229\133\137",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+wait(5.2)
+local args = {
+    [1] = "\233\131\189\230\178\161\228\189\160\232\128\128\231\156\188 \231\131\173\231\136\177 105 \194\176C\231" ..
+        "\154\132\228\189\160 \230\187\180\230\187\180\230\184\133\231\186\175\231\154\132\232" ..
+        "\146\184\233\166\143\230\176\180",
+    [2] = "All"
+}
+
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+wait(7.6)
+pcall(function() game.workspace.SUPERIDOL:Destroy() end)
