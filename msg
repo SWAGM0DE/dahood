@@ -1,5 +1,5 @@
 local args = {
-    [1] = "hello ", -- type what u want them to say here
+    [1] = "im gay ", -- type what u want them to say here
     [2] = "All"
 }
 
